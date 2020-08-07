@@ -42,43 +42,52 @@
 
 </head>
     <body>
-           <!-- Navbar -->
-        <div class="navbar-fixed">
-            <nav class="black">
-                <div class="container">
-                    <div class="nav-wrapper">
-                        <a href="index.html" class="brand-logo">My Portfolio</a>
-                        <ul class="right hide-on-med-and-down" id="navList">
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="contact.html" class="active">Contact</a></li>
-                        </ul>
+        <div class="row">
+            <!-- <div class="col s1 m1 l1"> -->
+                    <!-- Navbar -->
+                <!-- <div class="container"> -->
+                    <div class="navbar-fixed">
+                        <nav class="black">
+                            <div class="container">
+                                <div class="nav-wrapper">
+                                    <a href="index.html" class="brand-logo">My Portfolio</a>
+                                    <ul class="col s1 m1 l4 right hide-on-med-and-down" id="navList">
+                                        <li><a href="portfolio.html">Portfolio</a></li>
+                                        <li><a href="contact.html" class="active">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
                     </div>
-                </div>
-            </nav>
-        </div>
+                <!-- </div> -->
+
+            <!-- </div> -->
+        </div> 
         
             <section>
-                
-                <div class="container"> 
-                        <h3 class="h3 header">Contact</h3>
-                        <form action="/action_page.php">
-                            <label for="fname">Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="John Smith..">
-                        
-                            <label for="email">Email</label>
-                            <input type="text" id="email" email="emailaddress" placeholder="johnsmith@your.com..">
-                        
-                            <label for="subject">Subject</label>
-                            <textarea id="subject" name="subject" placeholder="Contact me to Discuss my Portfolio.." style="height:200px"></textarea>
-                        </form>
-                        
-                    <form method="post" action= "mailto:a.jones_01@yahoo.com">
-                        <div class="container padding-bottom ">
-                            <input type="submit" class="btn btn-info" value="Submit" background-color=#008B8B ></input>
+                <div class="row">
+                    <div class="col s4 m8 l12">
+                        <div class="container "> 
+                                <h3 class="h3 header">Contact</h3>
+                                <form action="/action_page.php" style="box-sizing: content-box; padding-right: 100px;">
+                                    <label for="fname">Name</label>
+                                    <input type="text" id="fname" name="firstname" placeholder="John Smith..">
+                                
+                                    <label for="email">Email</label>
+                                    <input type="text" id="email" email="emailaddress" placeholder="johnsmith@your.com..">
+                                
+                                    <label for="subject">Subject</label>
+                                    <textarea id="subject" name="subject" placeholder="Contact me to Discuss my Portfolio.." style="height:225px;"></textarea>
+                                </form>
+                                
+                            <form method="post" action= "mailto:a.jones_01@yahoo.com">
+                                <div class="container padding-bottom ">
+                                    <input type="submit" class="btn btn-info" style="padding-bottom: 5vh; margin-left: -215px;" value="Submit" background-color=#008B8B ></input>
+                                </div>
+                            </form>
                         </div>
-                    </form>
-                </div>
-                    
+                    </div>
+                </div> 
                     
                 
             </section>
